@@ -1,0 +1,112 @@
+.navbar {
+  background-color: #8564bf;
+  overflow: hidden;
+}
+.navbar .navbar-brand img {
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin: 5px;
+  display: block;
+}
+.navbar .username-label {
+  float: left;
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 20px;
+  display: block;
+  margin-right: auto;
+  color: #ffc107;
+}
+.navbar .username-label:hover {
+  color: #000000;
+}
+.navbar .search-form {
+  float: right;
+  display: flex;
+}
+
+body {
+  background-image: linear-gradient(#ffc107, #8564bf);
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+.container .content {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  max-width: 900px;
+  display: flex;
+  flex-direction: row;
+}
+.container .content .owner-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  max-height: 110px;
+  box-shadow: #8564bf 0px 6px 15px 0px;
+  border-radius: 10px;
+}
+.container .content .owner-container .button-container {
+  gap: 3em;
+  display: flex;
+}
+.container .content .owner-container .button-container .btn {
+  background-color: #e8e4e4;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  margin: 2px;
+  width: 100%;
+  color: #000;
+  font-family: "Lucida Console", Courier, monospace;
+  height: 30px;
+}
+.container .content .owner-container .button-container .chats:hover {
+  box-shadow: 0px 5px 5px #b2bec3;
+  background-color: #8564bf;
+  color: #ffc107;
+}
+.container .content .owner-container h5 {
+  text-align: center;
+}
+.container .content .image img {
+  height: 250px;
+  width: 250px;
+  float: left;
+  margin: 5px;
+  display: block;
+  border-radius: 5px;
+}
+.container .content .info .ad-location {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+.container .content .info .ad-location p {
+  font-size: 15px;
+  text-align: left;
+  color: #8564bf;
+}
+.container .content .info .ad-location img {
+  height: 18px;
+  width: 18px;
+  float: left;
+  margin: 5px;
+  display: block;
+}/*# sourceMappingURL=advertisement.css.map */
